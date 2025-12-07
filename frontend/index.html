@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hong Kong Airport Route Advisor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>✈️ Hong Kong Airport Route Advisor</h1>
+            <p class="subtitle">Data-Driven Route Safety and Comfort Assessment System</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- Control Panel -->
+        <div class="control-panel">
+            <h2>Route Query</h2>
+            
+            <div class="filters">
+                <div class="filter-group">
+                    <label for="destination">Destination</label>
+                    <select id="destination">
+                        <option value="">Select destination</option>
+                    </select>
+                </div>
+                
+                <div class="filter-group">
+                    <label for="month">Travel Month</label>
+                    <select id="month">
+                        <option value="">Select month</option>
+                        <option value="1">January</option>
+                        <option value="2">February</option>
+                        <option value="3">March</option>
+                        <option value="4">April</option>
+                        <option value="5">May</option>
+                        <option value="6">June</option>
+                        <option value="7">July</option>
+                        <option value="8">August</option>
+                        <option value="9">September</option>
+                        <option value="10">October</option>
+                        <option value="11">November</option>
+                        <option value="12">December</option>
+                    </select>
+                </div>
+                
+                <div class="filter-group">
+                    <label for="sort">Sort By</label>
+                    <select id="sort">
+                        <option value="composite_score">Highest Composite Score</option>
+                        <option value="safety_score">Highest Safety Score</option>
+                        <option value="comfort_score">Highest Comfort Score</option>
+                    </select>
+                </div>
+            </div>
+            
+            <div class="action-buttons">
+                <button id="search-btn" class="btn-primary">Search Routes</button>
+                <button id="reset-btn" class="btn-secondary">Reset</button>
+            </div>
+        </div>
+
+        <!-- Statistics -->
+        <div class="stats-grid" id="stats">
+            <div class="stat-card">
+                <div class="stat-value">--</div>
+                <div class="stat-label">Total Routes</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value">--</div>
+                <div class="stat-label">Avg Safety Score</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value">--</div>
+                <div class="stat-label">Avg Comfort Score</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value">--</div>
+                <div class="stat-label">Avg Composite Score</div>
+            </div>
+        </div>
+
+        <!-- Results Area -->
+        <div class="results-section">
+            <h2>Route Assessment Results</h2>
+            <div class="loading" id="loading">Loading...</div>
+            <div class="results-grid" id="results">
+                <div class="empty-state">
+                    <p>Please select filters and click "Search Routes"</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Charts Area -->
+        <div class="charts-section">
+            <div class="chart-container">
+                <h3>Airline Safety Score Comparison</h3>
+                <div class="chart" id="safety-chart"></div>
+            </div>
+            <div class="chart-container">
+                <h3>Airline Comfort Score Comparison</h3>
+                <div class="chart" id="comfort-chart"></div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© 2024 Hong Kong Airport Route Advisor | Data-Driven Decision Making</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
