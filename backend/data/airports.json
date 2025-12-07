@@ -1,0 +1,44 @@
+[
+  {
+    "airport_code": "CTS",
+    "airport_name_en": "Sapporo New Chitose",
+    "airport_name_zh": "札幌新千岁",
+    "city_zh": "札幌"
+  },
+  {
+    "airport_code": "FUK",
+    "airport_name_en": "Fukuoka",
+    "airport_name_zh": "福冈",
+    "city_zh": "福冈"
+  },
+  {
+    "airport_code": "HKG",
+    "airport_name_en": "Hong Kong International",
+    "airport_name_zh": "香港国际机场",
+    "city_zh": "香港"
+  },
+  {
+    "airport_code": "HND",
+    "airport_name_en": "Tokyo Haneda",
+    "airport_name_zh": "东京羽田",
+    "city_zh": "东京"
+  },
+  {
+    "airport_code": "KIX",
+    "airport_name_en": "Osaka Kansai",
+    "airport_name_zh": "大阪关西",
+    "city_zh": "大阪"
+  },
+  {
+    "airport_code": "NRT",
+    "airport_name_en": "Tokyo Narita",
+    "airport_name_zh": "东京成田",
+    "city_zh": "东京"
+  },
+  {
+    "airport_code": "OKA",
+    "airport_name_en": "Okinawa Naha",
+    "airport_name_zh": "冲绳那霸",
+    "city_zh": "冲绳"
+  }
+]

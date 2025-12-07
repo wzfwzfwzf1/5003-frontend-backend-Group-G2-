@@ -1,0 +1,44 @@
+[
+  {
+    "airline_code": "CX",
+    "airline_name_en": "Cathay Pacific",
+    "airline_name_zh": "国泰航空",
+    "airline_type": "full_service"
+  },
+  {
+    "airline_code": "HX",
+    "airline_name_en": "Hong Kong Airlines",
+    "airline_name_zh": "香港航空",
+    "airline_type": "full_service"
+  },
+  {
+    "airline_code": "JL",
+    "airline_name_en": "Japan Airlines",
+    "airline_name_zh": "日本航空",
+    "airline_type": "full_service"
+  },
+  {
+    "airline_code": "MH",
+    "airline_name_en": "Malaysia Airlines",
+    "airline_name_zh": "马来西亚航空",
+    "airline_type": "full_service"
+  },
+  {
+    "airline_code": "MM",
+    "airline_name_en": "Peach Aviation",
+    "airline_name_zh": "乐桃航空",
+    "airline_type": "low_cost"
+  },
+  {
+    "airline_code": "NH",
+    "airline_name_en": "All Nippon Airways",
+    "airline_name_zh": "全日空",
+    "airline_type": "full_service"
+  },
+  {
+    "airline_code": "UO",
+    "airline_name_en": "HK Express",
+    "airline_name_zh": "香港快运",
+    "airline_type": "low_cost"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "airline_code": "CX",
+    "safety_stars": 7,
+    "product_stars": 7,
+    "experience_rating": 4.800000190734863,
+    "safety_score": 100.0,
+    "product_score": 100.0
+  },
+  {
+    "airline_code": "HX",
+    "safety_stars": 7,
+    "product_stars": 5,
+    "experience_rating": 4.099999904632568,
+    "safety_score": 100.0,
+    "product_score": 71.4000015258789
+  },
+  {
+    "airline_code": "JL",
+    "safety_stars": 7,
+    "product_stars": 7,
+    "experience_rating": 6.300000190734863,
+    "safety_score": 100.0,
+    "product_score": 100.0
+  },
+  {
+    "airline_code": "MH",
+    "safety_stars": 7,
+    "product_stars": 7,
+    "experience_rating": 4.199999809265137,
+    "safety_score": 100.0,
+    "product_score": 100.0
+  },
+  {
+    "airline_code": "MM",
+    "safety_stars": 5,
+    "product_stars": 1,
+    "experience_rating": 2.5,
+    "safety_score": 71.4000015258789,
+    "product_score": 14.300000190734864
+  },
+  {
+    "airline_code": "NH",
+    "safety_stars": 7,
+    "product_stars": 7,
+    "experience_rating": 6.5,
+    "safety_score": 100.0,
+    "product_score": 100.0
+  },
+  {
+    "airline_code": "UO",
+    "safety_stars": 7,
+    "product_stars": 7,
+    "experience_rating": 1.0,
+    "safety_score": 100.0,
+    "product_score": 100.0
+  }
+]
