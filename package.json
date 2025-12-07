@@ -1,0 +1,10 @@
+{
+  "name": "airroute-advisor-simple",
+  "version": "1.0.0",
+  "description": "香港机场航线评估系统",
+  "scripts": {
+    "start-backend": "cd backend && npm start",
+    "dev-backend": "cd backend && npm run dev",
+    "open-frontend": "open frontend/index.html || start frontend/index.html || xdg-open frontend/index.html"
+  }
+}
